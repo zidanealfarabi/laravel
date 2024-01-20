@@ -21,12 +21,28 @@ Route::get('/admin', function () {
     return view('layout');
 });
 
+Route::get('/tampilan', function () {
+    return view('frontend');
+});
+
 Route::get('/', function () {
     return view('frontend');
 });
 
-Route::get('/tentang', function () {
+Route::get('/about', function () {
     return view('about');
+});
+
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/portfolio', function () {
+    return view('portfolio');
 });
 
 

@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Moderna Bootstrap Template - Index 2 without slider</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Pbw WEB</title>
+  <meta content="berita" name="berita">
+  <meta content="" name="kd_berita">
 
   <!-- Favicons -->
   <link href="/img/favicon.png" rel="icon">
@@ -53,26 +53,10 @@
         <ul>
           <li><a class="active " href="frontend">Home</a></li>
           <li><a href="admin">berita</a></li>
-          <li><a href="kontak">kontak</a></li>
-          <li><a href="profile">profile</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="blog">blog</a></li>
+          <li><a href="portfolio">portfolio</a></li>
+          <li><a href="contact">contact</a></li>
+          <li><a href="about">about</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -85,9 +69,9 @@
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
       <div class="row justify-content-center">
         <div class="col-xl-8">
-          <h2>Welcome to Moderna</h2>
-          <p>"berita"</p>
-          <a href="" class="btn-get-started ">Read More</a>
+          <h2>Welcome to Dane WEB</h2>
+          <p>e</p>
+          <a href="berita" class="btn-get-started ">Read More</a>
         </div>
       </div>
     </div>
@@ -335,7 +319,6 @@
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
 
   
   <!-- Vendor JS Files -->
