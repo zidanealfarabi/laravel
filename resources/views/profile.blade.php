@@ -56,7 +56,7 @@
           <li><a href="blog">blog</a></li>
           <li><a href="portfolio">portfolio</a></li>
           <li><a href="contact">contact</a></li>
-          <li><a href="about">about</a></li>
+          <li><a href="profile">profile</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

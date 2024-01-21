@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 
 use App\Http\Controllers\BeritaController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\KontakController;
 use App\Http\Controllers\ProfileController;
 /*
@@ -18,46 +19,36 @@ use App\Http\Controllers\ProfileController;
 */
 
 Route::get('/admin', function () {
-    return view('layout');
-});
-
-Route::get('/tampilan', function () {
-    return view('frontend');
+    return view('backend');
 });
 
 Route::get('/', function () {
     return view('frontend');
 });
 
-Route::get('/about', function () {
-    return view('about');
-});
-
-Route::get('/blog', function () {
-    return view('blog');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-Route::get('/portfolio', function () {
-    return view('portfolio');
+Route::get('/login', function () {
+    return view('index');
 });
 
 
 
-Route::get('berita',[BeritaController::class,'index']);
-Route::post('berita/tambah',[BeritaController::class,'tambah']);
-Route::post('berita/hapus',[BeritaController::class,'hapus']);
-Route::post('berita/edit',[BeritaController::class,'edit']);
+Route::get('/', [HomeController::class, 'home']);
+Route::get('/about', [HomeController::class, 'about']);
+Route::get('/blog', [HomeController::class, 'blog']);
+Route::get('/contact', [HomeController::class, 'contact']);
 
-Route::get('kontak',[KontakController::class,'index']);
-Route::post('kontak/tambah',[KontakController::class,'tambah']);
-Route::post('kontak/hapus',[KontakController::class,'hapus']);
-Route::post('kontak/edit',[KontakController::class,'edit']);
 
-Route::get('profile',[ProfileController::class,'index']);
-Route::post('profile/tambah',[ProfileController::class,'tambah']);
-Route::post('profile/hapus',[ProfileController::class,'hapus']);
-Route::post('profile/edit',[ProfileController::class,'edit']);
+Route::get('berita', [BeritaController::class, 'index']);
+Route::post('berita/tambah', [BeritaController::class, 'tambah']);
+Route::post('berita/hapus', [BeritaController::class, 'hapus']);
+Route::post('berita/edit', [BeritaController::class, 'edit']);
+
+Route::get('kontak', [KontakController::class, 'index']);
+Route::post('kontak/tambah', [KontakController::class, 'tambah']);
+Route::post('kontak/hapus', [KontakController::class, 'hapus']);
+Route::post('kontak/edit', [KontakController::class, 'edit']);
+
+Route::get('profile', [ProfileController::class, 'index']);
+Route::post('profile/tambah', [ProfileController::class, 'tambah']);
+Route::post('profile/hapus', [ProfileController::class, 'hapus']);
+Route::post('profile/edit', [ProfileController::class, 'edit']);

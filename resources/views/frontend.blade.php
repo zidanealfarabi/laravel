@@ -11,7 +11,7 @@
 
   <!-- Favicons -->
   <link href="/img/favicon.png" rel="icon">
-  <link href="frontend/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="frontend/img/pdbi.jpg" rel="pdbi.jpg">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
@@ -44,19 +44,18 @@
     <div class="container d-flex justify-content-between align-items-center">
 
       <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>Moderna</span></a></h1>
+        <h1 class="text-light"><a href="index.html"><span>Programmer PDBI</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="frontend/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="active " href="frontend">Home</a></li>
+          <li><a class="active " href="/">Home</a></li>
           <li><a href="admin">berita</a></li>
           <li><a href="blog">blog</a></li>
-          <li><a href="portfolio">portfolio</a></li>
           <li><a href="contact">contact</a></li>
-          <li><a href="about">about</a></li>
+          <li><a href="about">profile</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -69,9 +68,9 @@
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
       <div class="row justify-content-center">
         <div class="col-xl-8">
-          <h2>Welcome to Dane WEB</h2>
-          <p>e</p>
-          <a href="berita" class="btn-get-started ">Read More</a>
+          <h2>Welcome to PDBI </h2>
+          <p>BY ZIDANE</p>
+          <a href="home" class="btn-get-started ">Read More</a>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-@extends('Layout')
+@extends('backend')
 @section('Content')
 
 <a href="#" onclick="ModalTambahKontak()"  class="btn btn-success"> + Add New Data</a>
